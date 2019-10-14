@@ -26,7 +26,7 @@ let subtract = (param1, param2) => (param1 - param2);
 console.log(subtract(9, 1));
 // Stretch
 const exampleArray = [1, 2, 3, 4];
-const tripple = (exampleArray) => (exampleArray.map(function(num) { return num * 3; }));
+const tripple = exampleArray.map(function(num) { return num * 3; });
 console.log(tripple);
 // exampleArray = [1,2,3,4];
 // const triple = exampleArray.map(function (num) {
