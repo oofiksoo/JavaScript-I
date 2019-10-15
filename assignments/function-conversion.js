@@ -25,11 +25,11 @@ console.log(add(3, 1));
 let subtract = (param1, param2) => (param1 - param2);
 console.log(subtract(9, 1));
 // Stretch
-const exampleArray = [1, 2, 3, 4];
-const tripple = exampleArray.map(function(num) { return num * 3; });
-console.log(tripple);
 // exampleArray = [1,2,3,4];
 // const triple = exampleArray.map(function (num) {
 //   return num * 3;
 // });
 // console.log(triple);
+const exampleArray = [1, 2, 3, 4];
+const tripple = exampleArray.map(function(examp) { return examp * 3; });
+console.log(tripple);
